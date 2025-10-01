@@ -1,60 +1,25 @@
-# 🚀 GitHub Actions: The Ultimate Automation Tool 🎉
 
-Welcome to this fun and engaging guide about GitHub Actions and workflows! Dive into the world of automation and discover how GitHub can supercharge your projects! 🌟
 
----
+## Finish
 
-# 🌟 Fun Facts About GitHub Actions & Workflows 🚀
+_Congratulations friend, you've completed this course!_
 
-GitHub Actions is a super cool automation tool that makes life easier for developers! Here are some fun and lesser-known facts about it:
+<img src=https://octodex.github.com/images/jetpacktocat.png alt="Mona the Octocat wearing a jetpack and smiling." width=300 align=right>
 
----
+Here's a recap of all the tasks you've accomplished in your repository:
 
-## 🛠️ What Are GitHub Actions?
+- You've created your first GitHub Actions workflow file.
+- You learned where to make your workflow file.
+- You defined an event trigger, a job, and a step for your workflow.
+- You're ready to automate anything you can dream of.
 
-- GitHub Actions helps you automate tasks like building, testing, and deploying code! 🤖
-- Workflows are YAML files stored in the `.github/workflows/` directory. 📂
+### What's next?
 
----
+- Learn more about GitHub Actions by reading "[Learn GitHub Actions](https://docs.github.com/actions/learn-github-actions)"
+- Use actions created by others in [awesome-actions](https://github.com/sdras/awesome-actions)
+- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions)
+- [Take another course on GitHub Actions](https://skills.github.com/#automate-workflows-with-github-actions)
+- Learn more about GitHub by reading the "[Get started](https://docs.github.com/get-started)" docs
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore)
 
-## 🤔 Fun Facts You Didn't Know!
 
-1. **Workflows Can Be Triggered by Anything!**  
-   From commits, pull requests, or even a schedule, GitHub Actions has over [50 events](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows) that can trigger workflows! 🕒
-
-2. **Secrets Are the Real Superheroes!** 🦸  
-   Use **GitHub Secrets** to store sensitive data like API keys and credentials securely. 🔐
-
-3. **Reusable Workflows** 🌀  
-   You can create reusable workflows to DRY (Don’t Repeat Yourself) in your code. Just call them in your main workflow! 🌟
-
-4. **Matrix Builds for Parallel Jobs** 🧮  
-   Test your app on multiple environments (e.g., Python 3.7, 3.8, 3.9) in parallel with matrix builds. 🧪
-
-5. **Self-Hosted Runners** 🏡  
-   Want more control? Host your runners locally or in your cloud environment to customize builds. 🖥️
-
-6. **Marketplace Goodies** 🎁  
-   GitHub has a [marketplace](https://github.com/marketplace) with thousands of prebuilt actions to save you time. 🔍
-
-7. **Live Logs!** 📜  
-   Debugging made simple with real-time logs streamed directly in the Actions tab. 🕵️
-
----
-
-## 🏃 Getting Started
-
-1. Create a `.github/workflows` folder in your repo. 🗂️
-2. Add a `.yml` file like `main.yml` with this content:
-
-   ```yaml
-   name: CI Pipeline
-   on: push
-   jobs:
-     build:
-       runs-on: ubuntu-latest
-       steps:
-         - name: Checkout Code
-           uses: actions/checkout@v3
-         - name: Run a Script
-           run: echo "Hello, GitHub Actions!" 🎉
